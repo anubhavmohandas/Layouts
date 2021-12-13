@@ -1,0 +1,64 @@
+.page-header{
+    text-align: center;
+}
+
+.container{
+    width:80%;
+    height:800px;
+    margin-left: 10%;
+    border: 1px solid red;
+}
+
+.filter{
+    width:25%;
+    height:800px;
+    margin-left: 1%;
+    border: 1px solid green;
+    float: left;
+}
+
+.content{
+    width:60%;
+    height:800px;
+    margin-left: 10%;
+    border: 1px solid green;
+    float: left;
+}
+
+.component1{
+    width:100%;
+    height:200px;
+    /* margin-left: 10%; */
+    border: 1px solid green;
+    margin-bottom: 5px;
+}
+
+.img{
+    width:30%;
+    height:100%;
+    border: 1px solid black;
+    float: left;
+}
+
+.contains{
+    width:64%;
+    height:100%;
+    border: 1px solid black;
+    float: left;
+    margin-left: 5;
+}
+.component2{
+    width:100%;
+    height:200px;
+    /* margin-left: 10%; */
+    border: 1px solid green;
+    margin-bottom: 5px;
+}
+
+.component3{
+    width:100%;
+    height:200px;
+    /* margin-left: 10%; */
+    border: 1px solid green;
+    margin-bottom: 5px;
+}
