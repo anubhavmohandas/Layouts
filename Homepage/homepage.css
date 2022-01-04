@@ -1,0 +1,391 @@
+#search img{
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 450px;
+    border: 2px solid red;
+}
+
+#overlay{
+    display:flex;
+    background:transparent;
+    position: absolute;
+    font-size: 23px;
+    margin-left: 0%;
+    margin-top: 0%;
+    width: 95%;
+}
+#overlay a{
+    text-decoration: none;
+    color:#000;
+}
+#overlay > img{
+    height: 30px;
+}
+
+.btn {
+    color: black !important; /* White text */
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    overflow: hidden;
+    outline: none;
+    margin-left: -15%;
+    margin-top: -0.5%;
+}
+
+#logo{
+    height:150px;
+    width:150px;
+    margin-left: 600;
+    margin-top: -375;
+    position: absolute;
+    font-size:100px;
+    color:#000;
+    font-weight: bold;
+}
+
+#heading{
+    margin-left: 531;
+    margin-top: -235;
+    position: absolute;
+    font-size:45px;
+    color:black;
+}
+
+.dropdown{
+    height:0px;
+    width:60%;
+    margin-left: 30%;
+    margin-top: -10%;
+    position: absolute;
+    justify-content: center;
+}
+
+select{
+    height:60px;
+    width:35%
+}
+
+#QuickSearch{
+    width:100%;
+    margin-right:0%;
+    margin-top:10%;
+    margin-bottom: 7%;
+    padding-bottom: 2%;
+    display: inline-block;
+    /* margin-left: -204px; */
+    border:1px solid red;
+}
+
+#QuickHeading{
+    display:block;
+    color:#ac2e31;
+    font-size:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 16%;
+    margin-top:0;
+}
+
+
+#QuickSubHeading{
+    line-height: 2;
+    color:gray;
+    font-size:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 16%;
+}
+
+.tileContainer{
+    height: 40%;
+    width:20%;
+    float:left;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right:0%;
+    box-shadow: 7px 10px 17px gray;
+    border-radius: 10px;
+}
+
+.tileContainer:hover{
+    transform:scale(1.1);
+}
+.tileComponent1{
+    width:100%;
+    justify-content: center;
+    height:175px;
+    border: 1px solid red;
+}
+
+a > img {
+    width:100%;
+    height:180px;  
+    border-radius: 10px;
+}
+
+.tileComponent2{
+    width:100%;
+    display:inline-block;
+}
+.componentHeading{
+    color:#ac2e31;
+    font-size: 25px;
+    margin-top:2%;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.componentHeading > a{
+    color:#ac2e31 !important;
+    text-decoration: none !important;
+}
+
+.componentSubHeading{
+    color:gray;
+    font-size: 15px;
+    text-align: center;
+    border:1px solid red;
+}
+
+@media screen and (max-width:1500px){
+    .dropdown{
+        height:55px;
+        width:55%;
+        margin-left: 37%;
+        margin-top: -11%;
+    }
+
+    select{
+        height:50px;
+        width:35%
+    }
+
+    #QuickSearch{
+        margin-top:7%;
+    }
+
+    #QuickHeading{
+        margin-left: 12%;
+    }
+
+    #QuickSubHeading{
+        margin-left:12%;
+    }
+}
+
+@media screen and (max-width:1400px){
+    .dropdown{
+        height:55px;
+        width:55%;
+        margin-left: 37%;
+        margin-top: -11%;
+    }
+
+    select{
+        height:50px;
+        width:35%
+    }
+
+    #QuickSearch{
+        margin-top:7%;
+    }
+
+    #QuickHeading{
+        margin-left: 11%;
+    }
+
+    #QuickSubHeading{
+        margin-left:11%;
+    }
+}
+
+@media screen and (max-width:1300px){
+    #logo{
+        margin-left:522px;
+    }
+
+    #heading{
+        margin-left: 455px;
+    }
+    .dropdown{
+        height:55px;
+        width:55%;
+        margin-left: 37%;
+        margin-top: -13%;
+    }
+
+    select{
+        height:50px;
+        width:33%
+    }
+
+    #QuickSearch{
+        margin-top:9%;
+    }
+
+    #QuickHeading{
+        margin-left: 8%;
+    }
+
+    #QuickSubHeading{
+        margin-left:8%;
+    }
+}
+
+@media screen and (max-width:1200px){
+    #logo{
+        margin-left:425px;
+    }
+
+    #heading{
+        margin-left: 395px;
+    }
+    .dropdown{
+        height:55px;
+        width:55%;
+        margin-left: 35%;
+        margin-top: -13%;
+    }
+
+    select{
+        height:50px;
+        width:33%
+    }
+
+    #QuickSearch{
+        margin-top:9%;
+    }
+
+    #QuickHeading{
+        margin-left: 6%;
+    }
+
+    #QuickSubHeading{
+        margin-left:6%;
+    }
+
+}
+
+@media screen and (max-width:1000px){
+
+    #overlay{
+        display:none;
+    }
+    #logo{
+        margin-left:330px;
+    }
+
+    #heading{
+        margin-left: 275px;
+    }
+    .dropdown{
+        height:55px;
+        width:55%;
+        margin-left: 30%;
+        margin-top: -17%;
+    }
+
+    select{
+        height:50px;
+        width:37%;
+    }
+
+    #QuickSearch{
+        margin-top:12%;
+    }
+
+    #QuickHeading{
+        margin-left: 7%;
+    }
+
+    #QuickSubHeading{
+        margin-left:7%;
+    }
+
+    .tileContainer{
+        margin-left: 7%;
+        width:35%
+    }
+}
+
+@media screen and (max-width:800px){
+    #logo{
+        margin-left:250px;
+    }
+
+    #heading{
+        margin-left: 205px;
+    }
+    .dropdown{
+        height:55px;
+        width:65%;
+        margin-left: 30%;
+        margin-top: -20%;
+    }
+
+    select{
+        height:50px;
+        width:37%;
+        }
+
+    #QuickSearch{
+        margin-top:12%;
+    }
+
+    #QuickHeading{
+        margin-left: 7%;
+    }
+
+    #QuickSubHeading{
+        margin-left:7%;
+    }
+
+    .tileContainer{
+        margin-left: 7%;
+        width:35%
+    }
+}
+
+ @media screen and (max-width:600px){
+    #logo{
+        margin-left:135px;
+    }
+
+    #heading{
+        margin-left: 150px;
+        font-size: 32px;
+        margin-top: -220;
+    }
+    .dropdown{
+        height:55px;
+        width:65%;
+        margin-left: 30%;
+        margin-top: -27%;
+    }
+
+    select{
+        height:50px;
+        width:37%;
+        }
+
+    #QuickSearch{
+        margin-top:20%;
+    }
+
+    #QuickHeading{
+        margin-left: 7%;
+    }
+
+    #QuickSubHeading{
+        margin-left:7%;
+    }
+
+    .tileContainer{
+        margin-left: 7%;
+        width:50%;
+        padding-bottom:10px;
+    }
+}
