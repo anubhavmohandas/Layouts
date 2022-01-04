@@ -18,14 +18,14 @@
 }
 #overlay a{
     text-decoration: none;
-    color:#000;
+    color:#fff;
 }
 #overlay > img{
     height: 30px;
 }
 
 .btn {
-    color: black !important; /* White text */
+    color: white !important; /* White text */
     background-color: transparent;
     background-repeat: no-repeat;
     border: none;
@@ -42,7 +42,7 @@
     margin-top: -375;
     position: absolute;
     font-size:100px;
-    color:#000;
+    color:#fff;
     font-weight: bold;
 }
 
@@ -51,7 +51,7 @@
     margin-top: -235;
     position: absolute;
     font-size:45px;
-    color:black;
+    color:white;
 }
 
 .dropdown{
